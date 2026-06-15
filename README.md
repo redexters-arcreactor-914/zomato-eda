@@ -11,16 +11,17 @@ You can download it from Kaggle (link added): [Zomato Bangalore Restaurants](htt
 
 
 ## What is covered till now : 
-- Data cleaning and preprocessing
 - Removed the irrelevant text columns ( Some related to NLP and stuff )
 - Fixed inconsistent `rate` and `approx_cost` columns
 - Text standardization (whitespace removal, title casing)
-- Null value handling and cleaned dataset exported
+- Null value handling (median fill, Unknown fill, dropped, high-null cols)
+- Binary encoding (`online_order` , `book_table` -> 0/1)
+- Feature engineering: `price_category` , `rating_category` (binning)
 
-#### Also I added descriptions of steps in notebook file ( you can read for better understanding)
+> Also I added descriptions of steps in notebook file ( you can read for better understanding)
 
 ## Tools used (or will be used)
--Pandas, Matplotlib ,Seaborn. 
+-Pandas, Numpy, Matplotlib ,Seaborn. 
 
 ## To run this notebook 
 1. Just download the dataset `.csv` file from kaggle (about 500+ mb size)
