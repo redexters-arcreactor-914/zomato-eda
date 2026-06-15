@@ -17,11 +17,13 @@ You can download it from Kaggle (link added): [Zomato Bangalore Restaurants](htt
 - Null value handling (median fill, Unknown fill, dropped, high-null cols)
 - Binary encoding (`online_order` , `book_table` -> 0/1)
 - Feature engineering: `price_category` , `rating_category` (binning)
+  
 
 > Also I added descriptions of steps in notebook file ( you can read for better understanding)
 
+
 ## Tools used (or will be used)
--Pandas, Numpy, Matplotlib ,Seaborn. 
+Pandas, Numpy, Matplotlib ,Seaborn. 
 
 ## To run this notebook 
 1. Just download the dataset `.csv` file from kaggle (about 500+ mb size)
