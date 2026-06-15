@@ -1,7 +1,12 @@
 # zomato-eda
 Exploratory Data Analysis on Zomato restaurant dataset using Python, Pandas ,Matplotlib and Seaborn
 
-**Status :- In_Progress :)**
+## Project Status :-) In progress
+- [x] Data Cleaning & Preprocessing
+- [x] Feature Engineering (partial)
+- [ ] Exploratory Data Analysis (visualization)
+- [ ] Insights & Conclusions
+
 
 ## Dataset Used : 
 
