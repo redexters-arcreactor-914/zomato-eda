@@ -4,8 +4,9 @@ Exploratory Data Analysis on Zomato restaurant dataset using Python, Pandas ,Mat
 ## Project Status :-) In progress
 - [x] Data Cleaning & Preprocessing
 - [x] Feature Engineering (partial)
-- [ ] Exploratory Data Analysis (visualization)
-- [ ] Insights & Conclusions
+- [x] Univariate Analysis (in progress)
+- [ ] Bivariate/Multivariate Analysis
+- [ ] Insights and Conclusions
 
 
 ## Dataset Used : 
@@ -22,13 +23,16 @@ You can download it from Kaggle (link added): [Zomato Bangalore Restaurants](htt
 - Null value handling (median fill, Unknown fill, dropped, high-null cols)
 - Binary encoding (`online_order` , `book_table` -> 0/1)
 - Feature engineering: `price_category` , `rating_category` (binning)
+- Univariate analysis on `rate` and `cost_for_two`
+    - Distribution plots, skewness, kurtosis, outlier detection
+    - Compared Log1p, Sqrt, Yeo-Johnson transformation to fix right skewed cost data
   
 
 > Also I added descriptions of steps in notebook file ( you can read for better understanding)
 
 
 ## Tools used (or will be used)
-Pandas, Numpy, Matplotlib ,Seaborn. 
+Pandas, Numpy, Matplotlib ,Seaborn, Scikit-learn.
 
 ## To run this notebook 
 1. Just download the dataset `.csv` file from kaggle (about 500+ mb size)
@@ -38,3 +42,7 @@ Pandas, Numpy, Matplotlib ,Seaborn.
 ## Output Files
 - `zomato_cleaned.csv` : Cleaned dataset generated after preprocessing (9MB)
   - 51632 rows, 12 columns, 0 nulls
+
+
+
+
