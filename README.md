@@ -45,4 +45,49 @@ Pandas, Numpy, Matplotlib ,Seaborn, Scikit-learn.
 
 
 
+## Sample Visualizations
+
+
+### 1. Rating Distribution (Mean vs Median)
+
+![Rating Distribution](plots/rating_distribution_mean_median.png)
+
+------
+
+### 2. Rating Boxplot 
+
+Boxplot for detecting the potential outliers.
+
+![Rating Boxplot](plots/rating_boxplot.png)
+
+
+------- 
+
+### 3. Log Transformation
+
+Log1p transformation reduces skewness significantly.
+
+![Log Distribution](plots/log1p_cost_transform.png)
+
+
+----------
+
+### 4. Sqrt Transformation
+
+This is gentle squashing transformation , it is stronger than doing nothing but weaker than log transform.
+
+
+
+![Sqrt Distribution](plots/sqrt_cost_transform.png)
+
+------------
+
+
+### 5. Yeo-Johnson Transformation
+
+Power transformation applied to improve normality.
+
+![Yeo Johnson Distribution](plots/yeojohnson_cost_transform.png)
+
+
 
